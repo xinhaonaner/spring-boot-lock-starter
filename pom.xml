@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-klock-starter</artifactId>
+    <artifactId>spring-boot-lock-starter</artifactId>
     <version>1.4-SNAPSHOT</version>
     <description>The kLock Project</description>
 
@@ -24,11 +24,9 @@
     </licenses>
     <developers>
         <developer>
-            <name>kl</name>
-            <email>632104866@qq.com</email>
-            <organization>凯京集团</organization>
-            <organizationUrl>http://www.keking.cn/</organizationUrl>
-            <url>http://www.kailing.pub/</url>
+            <name>fzp</name>
+            <email>fzhengpei@gmail.com</email>
+            <url>https://fzp.kim/</url>
         </developer>
     </developers>
 
@@ -116,14 +114,14 @@
         </plugins>
     </build>
     <!-- distribute目录 -->
-    <distributionManagement>
-        <snapshotRepository>
-            <id>repo</id>
-            <url>http://ops.keking.cn:8081/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>repo</id>
-            <url>http://ops.keking.cn:8081/nexus/content/repositories/releases</url>
-        </repository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <snapshotRepository>-->
+<!--            <id>repo</id>-->
+<!--            <url>http://ops.keking.cn:8081/nexus/content/repositories/snapshots</url>-->
+<!--        </snapshotRepository>-->
+<!--        <repository>-->
+<!--            <id>repo</id>-->
+<!--            <url>http://ops.keking.cn:8081/nexus/content/repositories/releases</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 </project>

@@ -44,8 +44,9 @@ public class TestService {
 > spring mvc项目接入
 
 其他步骤和spring boot步骤一样，只需要spring-xx.xml配置中添加KlockAutoConfiguration类扫描即可，如：
+
 ```xml
-<context:component-scan base-package="org.springframework.boot.autoconfigure.klock.KlockAutoConfiguration"/>
+<context:component-scan base-package="org.springframework.boot.autoconfigure.lock.KlockAutoConfiguration"/>
 ```
 
 # 使用参数说明
