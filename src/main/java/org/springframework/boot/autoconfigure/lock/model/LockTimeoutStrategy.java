@@ -1,9 +1,9 @@
 package org.springframework.boot.autoconfigure.lock.model;
 
+import org.springframework.boot.autoconfigure.lock.lock.Lock;
 import org.aspectj.lang.JoinPoint;
 import org.springframework.boot.autoconfigure.lock.handler.KlockTimeoutException;
 import org.springframework.boot.autoconfigure.lock.handler.lock.LockTimeoutHandler;
-import org.springframework.boot.autoconfigure.lock.lock.Lock;
 
 import java.util.concurrent.TimeUnit;
 

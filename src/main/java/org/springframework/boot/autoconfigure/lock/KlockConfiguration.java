@@ -1,10 +1,10 @@
 package org.springframework.boot.autoconfigure.lock;
 
 import org.springframework.boot.autoconfigure.lock.config.KlockConfig;
+import org.springframework.boot.autoconfigure.lock.lock.LockFactory;
 import org.springframework.boot.autoconfigure.lock.core.BusinessKeyProvider;
 import org.springframework.boot.autoconfigure.lock.core.KlockAspectHandler;
 import org.springframework.boot.autoconfigure.lock.core.LockInfoProvider;
-import org.springframework.boot.autoconfigure.lock.lock.LockFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

@@ -1,8 +1,8 @@
 package org.springframework.boot.autoconfigure.lock.handler.lock;
 
-import org.aspectj.lang.JoinPoint;
 import org.springframework.boot.autoconfigure.lock.lock.Lock;
 import org.springframework.boot.autoconfigure.lock.model.LockInfo;
+import org.aspectj.lang.JoinPoint;
 
 /**
  * 获取锁超时的处理逻辑接口

@@ -1,10 +1,10 @@
 package org.springframework.boot.autoconfigure.lock.test;
 
+import org.springframework.boot.autoconfigure.lock.model.LockTimeoutStrategy;
+import org.springframework.boot.autoconfigure.lock.model.ReleaseTimeoutStrategy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.lock.annotation.Klock;
-import org.springframework.boot.autoconfigure.lock.model.LockTimeoutStrategy;
-import org.springframework.boot.autoconfigure.lock.model.ReleaseTimeoutStrategy;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;

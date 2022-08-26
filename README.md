@@ -46,6 +46,7 @@ public class TestService {
 其他步骤和spring boot步骤一样，只需要spring-xx.xml配置中添加KlockAutoConfiguration类扫描即可，如：
 
 ```xml
+
 <context:component-scan base-package="org.springframework.boot.autoconfigure.lock.KlockAutoConfiguration"/>
 ```
 

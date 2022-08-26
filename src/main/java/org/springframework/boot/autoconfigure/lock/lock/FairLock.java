@@ -1,8 +1,8 @@
 package org.springframework.boot.autoconfigure.lock.lock;
 
+import org.springframework.boot.autoconfigure.lock.model.LockInfo;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
-import org.springframework.boot.autoconfigure.lock.model.LockInfo;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;

@@ -1,8 +1,8 @@
 package org.springframework.boot.autoconfigure.lock.test;
 
+import org.springframework.boot.autoconfigure.lock.model.LockTimeoutStrategy;
 import org.springframework.boot.autoconfigure.lock.annotation.Klock;
 import org.springframework.boot.autoconfigure.lock.annotation.KlockKey;
-import org.springframework.boot.autoconfigure.lock.model.LockTimeoutStrategy;
 import org.springframework.stereotype.Service;
 
 /**

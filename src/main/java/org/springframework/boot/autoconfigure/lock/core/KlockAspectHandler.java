@@ -1,5 +1,10 @@
 package org.springframework.boot.autoconfigure.lock.core;
 
+import org.springframework.boot.autoconfigure.lock.annotation.Klock;
+import org.springframework.boot.autoconfigure.lock.handler.KlockInvocationException;
+import org.springframework.boot.autoconfigure.lock.lock.Lock;
+import org.springframework.boot.autoconfigure.lock.lock.LockFactory;
+import org.springframework.boot.autoconfigure.lock.model.LockInfo;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -10,11 +15,6 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.lock.annotation.Klock;
-import org.springframework.boot.autoconfigure.lock.handler.KlockInvocationException;
-import org.springframework.boot.autoconfigure.lock.lock.Lock;
-import org.springframework.boot.autoconfigure.lock.lock.LockFactory;
-import org.springframework.boot.autoconfigure.lock.model.LockInfo;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;

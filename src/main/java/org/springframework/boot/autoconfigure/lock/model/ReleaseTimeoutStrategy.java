@@ -1,7 +1,7 @@
 package org.springframework.boot.autoconfigure.lock.model;
 
-import org.springframework.boot.autoconfigure.lock.handler.KlockTimeoutException;
 import org.springframework.boot.autoconfigure.lock.handler.release.ReleaseTimeoutHandler;
+import org.springframework.boot.autoconfigure.lock.handler.KlockTimeoutException;
 
 /**
  * @author wanglaomo
