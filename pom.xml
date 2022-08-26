@@ -6,7 +6,7 @@
 
     <groupId>kim.fzp</groupId>
     <artifactId>spring-boot-lock-starter</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <description>The kLock Project</description>
 
     <properties>
